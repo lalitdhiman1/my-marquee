@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+    <div class="sliderWrapper"></div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    $(function () {
+
+      slider.init({
+        selectorDiv: '.sliderWrapper',
+        url: 'data/data.json',
+        autoplay: true,
+        slideTimer: 3000
+      })
+
+      $(document).on('click','.sliderWrapper ul li', function () {
+        slider.onclick($(this))
+      })
+    })
+  </script>
+</body>
+</html>

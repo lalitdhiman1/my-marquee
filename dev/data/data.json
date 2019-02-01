@@ -1,0 +1,28 @@
+{
+	"items": [{
+		"url": "https://wallpapercave.com/wp/RU0bVyP.jpg",
+		"backgroundColor": "#112F3B",
+		"textColor":"white",
+		"title":"Manufacturing"
+	}, {
+		"url": "https://wallpapercave.com/wp/wc1760484.jpg",
+		"backgroundColor": "#2B7379",
+		"textColor":"white",
+		"title":"Transportation"
+	}, {
+		"url": "https://i.pinimg.com/originals/6b/bb/d5/6bbbd5899f1938a433cc2cadd2ac8f54.jpg",
+		"backgroundColor": "#6BBAB5",
+		"textColor":"white",
+		"title":"Smart Spaces"
+	}, {
+		"url": "https://wallpapercave.com/wp/gqHavMY.jpg",
+		"backgroundColor": "#FAE3D6",
+		"textColor":"black",
+		"title":"Healthcare"
+	}, {
+		"url": "https://thewallpaper.co/wp-content/uploads/2016/10/cristiano-ronaldo-real-madrid-HD-wallpaper-1-wallpaper-hd-download-free-mac-desktop-wallpapers-amazing-high-definition-4k-1300x800.jpg",
+		"backgroundColor": "#D5ADA6",
+		"textColor":"black",
+		"title":"Natural Resources"
+	}]
+}

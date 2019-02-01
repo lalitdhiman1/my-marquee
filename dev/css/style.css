@@ -1,0 +1,73 @@
+body {
+    margin: 0;font-family: 'Montserrat', sans-serif;
+}
+.sliderWrapper a {
+  padding: 5px;
+  background: #585858;
+ color: #fff !important;
+ float: left;
+ margin: 10px 0px;
+ border-radius: 50%;
+ width: 20px;
+ text-decoration: none;
+ text-align: center;
+}
+
+a#next {
+  float: right;
+  margin-right: 35%;
+}
+a#prev {
+  float: left;
+  margin-left: 35%;
+}
+.sliderWrapper {    
+    float: left;
+    width: 100%;height: 100vh;
+}
+.left {
+    float: left;
+    width: 50%;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease .5s;
+}
+.right { 
+  transition: all ease .5s;
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+.sliderWrapper ul {
+  position: absolute;
+  padding: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 240px;
+  width: 230px;
+  bottom: 0;
+  top: 0;
+}
+.sliderWrapper ul li{
+  padding-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    background: #585858;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    border-radius: 23px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 9px #000;
+    display: block;
+    margin: 10px auto 0px;
+    border: 1px solid #fff;
+    opacity: .3;
+    transition: all linear 1s;
+}
+.sliderWrapper ul li._active{opacity: 1;}
