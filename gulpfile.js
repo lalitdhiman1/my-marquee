@@ -7,7 +7,6 @@ function css() {
     return src('dev/css/*.css')
       .pipe(dest('prod/css'))
   } 
-  
 function html() {
 return src('dev/**/*.html')
     .pipe(dest('prod/'))
